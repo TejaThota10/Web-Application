@@ -1,0 +1,123 @@
+* {
+    font-family: 'Poppins',sans-serif;
+    box-sizing:border-box;
+}
+body
+{
+    background-image: url("B6.jpg");
+}
+.container
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height:100vh;
+}
+.box
+{
+    background-image: url("B5.jpg");
+    display:flex;
+    flex-direction:column;
+    padding:25px 25px;
+    border-radius: 20px;
+    box-shadow:10px 10px 5px 5px wheat;
+}
+.form-box
+{
+    width:500px;
+    margin:0px 10px;
+}
+.form-box header
+{
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+.form-box form .field
+{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.form-box form .input input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10 10px;
+    border-radius: 10px;
+    border: 19x solid #ccc;
+}
+.btn
+{
+    height: 35px;
+    background: rgba(76,68,182,0.808);
+    border:50;
+    border-radius: 50px;
+    color:#fff;
+    font-size:15px;
+    cursor:pointer;
+    transition: all .3s;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.btn:hover
+{
+    opacity:0.82;
+}
+.submit
+{
+    width:100%;
+}
+.link
+{
+    margin-bottom: 15px;
+}
+/************Home**********/
+.nav
+{
+    background-image: url(B6.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 40px;
+}
+.right-links a
+{
+    padding: 0 50px;
+}
+main
+{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.main-box
+{
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+}
+.main-box .top
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+.bottom
+{
+    width:100%;
+    margin-top: 20px;
+}
+.message
+{
+    text-align: center;
+    background: #f9eded;
+    padding: 15px 0px;
+    border: 1px solid #699053;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: red;
+}
